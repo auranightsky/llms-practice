@@ -1,8 +1,7 @@
 
 import json
-from pathlib import Path
 from langchain_text_splitters import RecursiveCharacterTextSplitter
-from paths import OUTPUT_DIR
+from src.utils.paths import OUTPUT_DIR
 
 
 def chunk_documents(docs, chunk_size=1000, chunk_overlap=150):

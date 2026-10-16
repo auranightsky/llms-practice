@@ -1,7 +1,7 @@
 
 from pathlib import Path
 from langchain_mineru import MinerULoader
-from paths import OUTPUT_DIR, PROJECT_DIR
+from src.utils.paths import OUTPUT_DIR, PROJECT_DIR
 
 def parse_manual(manual_path, mode="flash"):
     """Parse a manual using MinerU and save results as Markdown."""

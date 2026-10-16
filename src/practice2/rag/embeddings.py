@@ -3,7 +3,7 @@ from pathlib import Path
 
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from paths import OUTPUT_DIR
+from src.utils.paths import OUTPUT_DIR
 
 
 def vectorize_chunks(chunks, embed_model):
